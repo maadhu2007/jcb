@@ -10,7 +10,7 @@ e=2
 while (e < phi):  
   if(math.gcd(e, phi) == 1):  
        break  
-  else 
+  else :
         e = e+1  
 d=mod_inverse(e,phi)
 print("d:",d) 
@@ -25,3 +25,4 @@ print("m:",m)
 OM= math.fmod(m, n)  
 
 print("decrypte data = ", OM) 
+
